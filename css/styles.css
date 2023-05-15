@@ -133,6 +133,16 @@ body {
     background-color: var(--background-color-two);
 }
 
+.team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-color-one);
+}
+
 .team-item {
     background-color: #ffffff;
 }
