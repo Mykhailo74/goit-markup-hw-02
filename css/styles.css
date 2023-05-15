@@ -168,6 +168,7 @@ body {
 
 .button-item {
     font-family: inherit;
+    background-color: #f4f4fd;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
