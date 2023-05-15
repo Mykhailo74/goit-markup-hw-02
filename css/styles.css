@@ -129,10 +129,79 @@ body {
 
 /* Team */
 
-.team {
+.team-section {
     background-color: var(--background-color-two);
 }
 
 .team-item {
     background-color: #ffffff;
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color-one);
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color-one);
+}
+
+/* Portfolio */
+
+/* Buttons */
+
+.button-item {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    cursor: pointer;
+}
+
+.button-item:hover,
+.button-item:focus {
+    background-color: #404bbf;
+    color: #ffffff;
+}
+
+/* Projects */
+
+.bar-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color-one);
+}
+
+.bar-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color-one);
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--background-color-one);
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color-two);
+}
+
+.logo-studio-footer {
+    color: var(--text-color-two);
 }
